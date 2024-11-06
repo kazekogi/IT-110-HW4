@@ -1,0 +1,70 @@
+  * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  } 
+  
+  body {
+    font-family: sans-serif;
+    padding: 25px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(33, 145, 57);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    
+  }
+  
+  header h1 {
+    margin-bottom: 0.3em;
+    font-size: 3em;
+  }
+  
+  header p {
+    font-size: 1.1em;
+  }
+  
+  .imageSection {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 100%;
+    max-height: 100%;
+
+  }
+  
+  .theImage {
+    width: 100%; 
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+  }
+  
+  .descriptionSection {
+    max-width: 70%;
+    margin: auto;  
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+  }
+  
+  .descriptionSection h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0.25em;
+    color: rgb(35, 158, 62);
+  }
+  
+  .descriptionSection p {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    color: rgb(73, 78, 74);
+  }
+  
